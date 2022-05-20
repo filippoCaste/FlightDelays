@@ -92,7 +92,6 @@ public class Model {
 		
 		// visita del grafo
 		while(it.hasNext()) {
-			// TODO se destinazione -- break
 			Airport visitato = it.next();
 			if(visitato.equals(a2)) {
 				trovato = true;
